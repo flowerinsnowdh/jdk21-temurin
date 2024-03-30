@@ -1,7 +1,7 @@
 pkgbase = jdk21-temurin
 	pkgdesc = Temurin 21 (OpenJDK 21 Java binaries by Adoptium, formerly AdoptOpenJDK)
 	pkgver = 21.0.2.u13
-	pkgrel = 1
+	pkgrel = 2
 	url = https://adoptium.net/
 	install = install_jdk21-temurin.sh
 	arch = x86_64
@@ -17,10 +17,8 @@ pkgbase = jdk21-temurin
 	optdepends = gtk3: for the Gtk+ 3 look and feel
 	provides = java-runtime-headless=21
 	provides = java-runtime-headless-openjdk=21
-	provides = jre21-openjdk-headless=21.0.2.u13
 	provides = java-runtime=21
 	provides = java-runtime-openjdk=21
-	provides = jre21-openjdk=21.0.2.u13
 	provides = java-environment=21
 	provides = java-environment-openjdk=21
 	provides = jdk21-openjdk=21.0.2.u13
