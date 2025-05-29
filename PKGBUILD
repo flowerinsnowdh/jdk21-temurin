@@ -52,7 +52,7 @@ backup=(etc/java-${_majorver}-temurin/logging.properties
 install=install_jdk${_majorver}-temurin.sh
 options=(!strip)
 
-source=(https://github.com/adoptium/temurin${_majorver}-binaries/releases/download/jdk-${_tag_ver/+/%2B}/OpenJDK${_majorver}${_versuffix}-jdk_x64_linux_hotspot_${_tag_ver/+/_}.tar.gz
+source=(https://mirrors.nju.edu.cn/adoptium/${_majorver}/jdk/x64/linux/OpenJDK${_majorver}${_versuffix}-jdk_x64_linux_hotspot_${_tag_ver/+/_}.tar.gz
         freedesktop-java.desktop
         freedesktop-jconsole.desktop
         freedesktop-jshell.desktop)
